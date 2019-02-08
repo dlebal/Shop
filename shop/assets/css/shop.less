@@ -1,0 +1,27 @@
+@background-color: #FFFFFF;
+
+body {
+  background-color: @background-color;
+  padding-top: 54px;
+}
+
+.logo-small {
+  height: 36px;
+  width: 36px;
+}
+
+.card-img-top {
+  height: 200px;
+  object-fit: contain;
+}
+
+.card img.materialized.active {
+  max-height: none;
+  object-fit: none;
+}
+
+@media (min-width: 992px) {
+  body {
+    padding-top: 56px;
+  }
+}
